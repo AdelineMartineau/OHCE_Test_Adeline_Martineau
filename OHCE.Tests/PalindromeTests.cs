@@ -1,4 +1,5 @@
 ﻿using OHCE_Adeline_Martineau;
+using OHCE_Adeline_Martineau.Langues;
 using Xunit;
 
 namespace OHCE.Test.xUnit
@@ -8,7 +9,7 @@ namespace OHCE.Test.xUnit
         [Fact]
         public void reverseTest()
         {
-            Ohce ohce = new Ohce();
+            Ohce ohce = new Ohce(null, PeriodeJournee.Soir);
 
             var sortie = ohce.palindrome("yolo");
 
@@ -18,12 +19,12 @@ namespace OHCE.Test.xUnit
         [Fact]
         public void palindromeTest()
         {
-            Ohce ohce = new Ohce();
+            Ohce ohce = new Ohce(new Français(), PeriodeJournee.Soir);
 
             var sortie = ohce.palindrome("kayak");
             string palindrome = "kayak";
 
-            Assert.Contains(palindrome + " Bien dit !", sortie);
+            Assert.Contains(palindrome + ohce.getLangue().BienDit, sortie);
         }
     }
 }
