@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OHCE_Adeline_Martineau", "..\..\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau.csproj", "{1ED04EF2-745A-40C1-8FDF-AA6C1BD28D6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OHCE_Adeline_Martineau", "OHCE_Adeline_Martineau\OHCE_Adeline_Martineau.csproj", "{1ED04EF2-745A-40C1-8FDF-AA6C1BD28D6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OHCE.Tests", "..\..\Documents\Dev\OHCE_Adeline_Martineau\OHCE.Tests\OHCE.Tests.csproj", "{7C94D4BA-2262-4BB9-96DD-026FC1B7DA8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OHCE.Tests", "OHCE.Tests\OHCE.Test.xUnit.csproj", "{7C94D4BA-2262-4BB9-96DD-026FC1B7DA8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

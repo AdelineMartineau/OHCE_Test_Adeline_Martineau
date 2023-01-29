@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OHCE_Adeline_Martineau;
-using OHCE_Adeline_Martineau.Langues;
+﻿using OHCE_Adeline_Martineau;
 using Xunit;
 
 namespace OHCE.Test.xUnit

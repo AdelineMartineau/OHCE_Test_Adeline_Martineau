@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OHCE_Adeline_Martineau.Langues
 {
-    public class Français
+    public class Français: ILangue
     {
         public string BienDit => "Bien Dit !";
         public string Bonjour => "Bonjour";
