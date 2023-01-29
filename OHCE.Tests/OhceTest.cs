@@ -4,7 +4,7 @@ using Xunit;
 
 namespace OHCE.Test.xUnit
 {
-    public class PalindromeTests
+    public class OhceTest
     {
         [Fact]
         public void reverseTest()
@@ -19,7 +19,7 @@ namespace OHCE.Test.xUnit
         [Fact]
         public void palindromeTest()
         {
-            Ohce ohce = new Ohce(new Français(), PeriodeJournee.Soir);
+            Ohce ohce = new Ohce(new SystemLangProxy(), PeriodeJournee.Soir);
 
             var sortie = ohce.palindrome("kayak");
             string palindrome = "kayak";

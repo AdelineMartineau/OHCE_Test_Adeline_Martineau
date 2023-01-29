@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OHCE_Adeline_Martineau
 {
-    internal class SystemLangProxy :ILangue
+    public class SystemLangProxy :ILangue
     {
         public string BienDit => System.Globalization.CultureInfo.CurrentCulture.ToString() == "fr-FR" ? Expressions.Français.BienDit : (System.Globalization.CultureInfo.CurrentCulture.ToString() == "en-EN" ? Expressions.English.BienDit : "");
 

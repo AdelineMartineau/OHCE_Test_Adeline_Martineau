@@ -1,27 +1,12 @@
-﻿using System.Text;
+﻿using OHCE_Adeline_Martineau;
+using System.Text;
 
-static string getMirrorString(string str)
-{
-    StringBuilder stringBuilder = new StringBuilder();
+var ohce = new Ohce(new SystemLangProxy(), new SystemTimePeriodJourneeAdapter().PeriodeJournee);
 
-    var reversed = new string(str.Reverse().ToArray());
+Console.WriteLine(new SystemTimePeriodJourneeAdapter().PeriodeJournee);
 
-    stringBuilder.Append(reversed);
+Console.WriteLine(ohce.Saluer());
 
-    return stringBuilder.ToString();
-}
+Console.WriteLine(ohce.palindrome(Console.ReadLine() ?? String.Empty));
 
-Console.WriteLine("Bonjour !");
-
-string inputUSer = Console.ReadLine();
-
-string reversedInputUser = getMirrorString(inputUSer);
-
-Console.WriteLine(reversedInputUser);
-
-if (inputUSer == reversedInputUser)
-{
-    Console.WriteLine("Bien dit !");
-}
-
-Console.WriteLine("Au revoir");
+Console.WriteLine(ohce.AuRevoir());
