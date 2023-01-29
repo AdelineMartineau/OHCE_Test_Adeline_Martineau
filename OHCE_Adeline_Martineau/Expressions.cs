@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OHCE_Adeline_Martineau
 {
-    internal class Expressions
+    public static class Expressions
     {
         public static class Français
         {
