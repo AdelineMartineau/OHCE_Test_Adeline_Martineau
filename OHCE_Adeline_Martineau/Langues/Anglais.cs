@@ -13,6 +13,6 @@ namespace OHCE_Adeline_Martineau.Langues
         {
             return periodeJournee == PeriodeJournee.Matin ? Expressions.English.Bonjour : Expressions.English.Bonsoir;
         }
-        public string AuRevoir => "Good bye";
+        public string AuRevoir => "Goodbye";
     }
 }
