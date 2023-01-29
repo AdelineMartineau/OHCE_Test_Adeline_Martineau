@@ -9,7 +9,7 @@ namespace OHCE_Adeline_Martineau.Langues
     public interface ILangue
     {
         string BienDit { get; }
-        string Bonjour { get; }
+        string direBonjour(PeriodeJournee periodeJournee);
         string AuRevoir { get; }
     }
 }
