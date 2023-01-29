@@ -1,0 +1,15 @@
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\bin\Debug\net6.0\OHCE_Adeline_Martineau.exe
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\bin\Debug\net6.0\OHCE_Adeline_Martineau.deps.json
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\bin\Debug\net6.0\OHCE_Adeline_Martineau.runtimeconfig.json
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\bin\Debug\net6.0\OHCE_Adeline_Martineau.dll
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\bin\Debug\net6.0\OHCE_Adeline_Martineau.pdb
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\obj\Debug\net6.0\OHCE_Adeline_Martineau.csproj.AssemblyReference.cache
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\obj\Debug\net6.0\OHCE_Adeline_Martineau.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\obj\Debug\net6.0\OHCE_Adeline_Martineau.AssemblyInfoInputs.cache
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\obj\Debug\net6.0\OHCE_Adeline_Martineau.AssemblyInfo.cs
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\obj\Debug\net6.0\OHCE_Adeline_Martineau.csproj.CoreCompileInputs.cache
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\obj\Debug\net6.0\OHCE_Adeline_Martineau.dll
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\obj\Debug\net6.0\refint\OHCE_Adeline_Martineau.dll
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\obj\Debug\net6.0\OHCE_Adeline_Martineau.pdb
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\obj\Debug\net6.0\OHCE_Adeline_Martineau.genruntimeconfig.cache
+D:\Users\lfxar\Documents\Dev\OHCE_Adeline_Martineau\OHCE_Adeline_Martineau\obj\Debug\net6.0\ref\OHCE_Adeline_Martineau.dll
