@@ -14,6 +14,7 @@ namespace OHCE_Adeline_Martineau
             public const string Bonjour = "Bonjour";
             public const string AuRevoir = "Au revoir";
             public const string Bonsoir = "Bonsoir";
+            public const string BonneNuit = "Bonne nuit";
         }
 
         public static class English
@@ -22,6 +23,7 @@ namespace OHCE_Adeline_Martineau
             public const string Bonjour = "Hello";
             public const string AuRevoir = "Goodbye";
             public const string Bonsoir = "Good Evening";
+            public const string BonneNuit = "Good night";
         }
     }
 }

@@ -13,23 +13,42 @@ namespace OHCE_Adeline_Martineau
 
         public string AuRevoir => System.Globalization.CultureInfo.CurrentCulture.ToString() == "fr-FR" ? Expressions.Français.AuRevoir : (System.Globalization.CultureInfo.CurrentCulture.ToString() == "en-EN" ? Expressions.English.AuRevoir : "");
 
-        public string direBonjour(PeriodeJournee période)
+        public string direBonjour(PeriodeJournee periode)
         {
             if (System.Globalization.CultureInfo.CurrentCulture.ToString() == "fr-FR")
             {
-                return période == PeriodeJournee.Soir
-                    ? Expressions.Français.Bonsoir
-                    : Expressions.Français.Bonjour;
+                switch (periode)
+                {
+                    case PeriodeJournee.Matin:
+                        return Expressions.Français.Bonjour;
+                    case PeriodeJournee.ApresMidi:
+                        return Expressions.Français.Bonjour;
+                    case PeriodeJournee.Soir:
+                        return Expressions.Français.Bonsoir;
+                    case PeriodeJournee.Nuit:
+                        return Expressions.Français.BonneNuit;
+                    default:
+                        return Expressions.Français.Bonjour;
+                }
             }
             else if (System.Globalization.CultureInfo.CurrentCulture.ToString() == "en-EN")
             {
-                return période == PeriodeJournee.Soir
-                    ? Expressions.English.Bonsoir
-                    : Expressions.English.Bonjour;
+                switch (periode)
+                {
+                    case PeriodeJournee.Matin:
+                        return Expressions.English.Bonjour;
+                    case PeriodeJournee.ApresMidi:
+                        return Expressions.English.Bonjour;
+                    case PeriodeJournee.Soir:
+                        return Expressions.English.Bonsoir;
+                    case PeriodeJournee.Nuit:
+                        return Expressions.English.BonneNuit;
+                    default:
+                        return Expressions.English.Bonjour;
+                }
             }
-            else
-            {
-                return "";
+            else {
+                return "Langue ou période système introuvable";
             }
         }
     }
